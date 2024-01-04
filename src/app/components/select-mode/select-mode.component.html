@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <nz-card
+    *ngFor="let mode of modeList"
+    [nzTitle]="title"
+    class="mode"
+    nzHoverable
+    [nzBorderless]="true"
+    (click)="selectMode(mode)"
+    >
+    <ng-template #title>
+      <span class="title"> {{ mode.title | translate }}</span>
+    </ng-template>
+    <span>{{ mode.description | translate}}</span>
+  </nz-card>
+</div>
+

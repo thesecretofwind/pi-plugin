@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LOGIN">
+            <g id="Group-5" transform="translate(0.000000, -748.000000)">
+                <rect id="bg-copy" fill="#333333" x="0" y="748" width="1440" height="1024"></rect>
+                <rect id="accent-graphic-2" fill="#4D4D4D" transform="translate(1569.769336, 1629.769336) scale(-1, 1) rotate(45.000000) translate(-1569.769336, -1629.769336) " x="822.03126" y="1117.76934" width="1495.47615" height="1024"></rect>
+                <rect id="accent-graphic-1" fill="#666666" transform="translate(1569.769336, 890.769336) scale(-1, 1) rotate(-45.000000) translate(-1569.769336, -890.769336) " x="822.03126" y="378.769336" width="1495.47615" height="1024"></rect>
+                <rect id="accent-graphic-1-copy" fill="#4D4D4D" transform="translate(1309.269336, 630.269336) scale(-1, 1) rotate(-45.000000) translate(-1309.269336, -630.269336) " x="929.933893" y="118.269336" width="758.670886" height="1024"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

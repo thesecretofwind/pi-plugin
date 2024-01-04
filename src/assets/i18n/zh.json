@@ -1,0 +1,246 @@
+{
+  "GOBAL":{
+    "LOADING":"正在加載...",
+    "SURE":"確定",
+    "CANCEL":"取消",
+    "NEWWORKERROR":"網絡錯誤,請稍後重試",
+    "EXSIHOSTERROR":"由於無法從htmlClientSdk加載ESXi ID,導致無法將關聯的UPS設備獲取到ESXi主機",
+    "EXSIHOSTPDUERROR":"由於無法從htmlClientSdk加載ESXi ID,導致無法將關聯的PDU設備獲取到ESXi主機",
+    "UPDATEERROR":"嘗試獲取告警定義時發生錯誤",
+    "SAVE":"保存"
+  },
+  "LOGIN": {
+      "USERNAME":"用戶名",
+      "PASSWORD":"密碼",
+      "CHANGEPASSWORD":"更改密碼",
+      "INITALPASSWORD":"恢復密碼",
+      "LOGIN":"登錄",
+      "ERRORTIP":"錯誤的帳戶或密碼,請重新輸入",
+      "SUCCESS":"帳戶和密碼重置成功,請重新登錄",
+      "INITTIP":"您要確認初始化密碼嗎？",
+      "TIP":"提示",
+      "FIRSTLOGIN": "首次登陸，請修改密碼！",
+      "ABOUT": "关于",
+      "LOGOUT": "注销"
+  },
+  "CLUSTRMONITORPDU":{
+    "TITLE":" Vertiv設備",
+    "NOTBOUND":"當前等級的主機未綁定到設備上"
+  },
+  "CLUSTRMONITORUPS":{
+    "TITLE":" Vertiv設備",
+    "NOTBOUND":"當前等級的主機未綁定到設備上"
+  },
+  "CHANGEPASSWORD": {
+    "OLDPASSWORD":"舊密碼",
+    "NEWPASSWORD":"新密碼",
+    "CONFIRMPASSWORD":"確認密碼",
+    "CHANGE":"更改",
+    "CANCEL":"取消",
+    "ERRORMESSAGE":"確認密碼和新密碼副本",
+    "ERROROPTIONS":"密碼修改失敗,請重試"
+  },
+  "CLUSTERPDUSTATUS":{
+    "TOTALENERGY":"總能量",
+    "TOTALPOWER":"總功率"
+  },
+  "CLUSTERUPSSTATUS":{
+    "OUTPUTCURRENT":"輸出電流",
+    "OUTPUTVOLTAGE":"輸出電壓"
+  },
+  "GOBALALARM":{
+    "UPDATESUCCESS":"更新完成！"
+  },
+  "HOSTPDUSTATUS":{
+    "PDUSTATUS":" PDU狀態",
+    "UNBOUNDDEVICE":"未綁定設備",
+    "TOTALENERGY":"總能量",
+    "TOTALPOWER":"總功率"
+  },
+  "HOSTUPSSTATUS":{
+    "UPSSTATUS":" UPS狀態",
+    "UNBOUNDDEVICE":"未綁定設備",
+    "OUTPUTCURRENT":"輸出電流",
+    "OUTPUTVOLTAGE":"輸出電壓"
+  },
+  "GOBALVIEW":{
+    "CONFIGURATIONTIME":"告警激活時間配置,單位秒",
+    "GLOBALALARM":"全局告警",
+    "CUSTOMALARM":"自定義告警",
+    "ERRORABOUTWRITE": "請輸入0至86400的整數"
+  },
+  "PICONFIGURE":{
+    "PIINSIGHTINSTALLATION":" Power Insight安裝",
+    "PIHOSTIP":" Power Insight HostName/HostIP",
+    "PIAPIKEY":" Power Insight Api密鑰",
+    "PISECRET":" Power Insight Api Secret",
+    "PIUPDATE":"更新",
+    "PIINSTALL":"安裝",
+    "PIUNINSTALL":"卸載",
+    "ERRORPI":"嘗試獲取Power Insight的數據時發生錯誤",
+    "UPDATESUCCESS":" Power Insight數據已成功更新",
+    "UPDATEERROR":"嘗試為Power Insight更新數據時發生錯誤",
+    "INSTALLERROR":"嘗試刪除Power Insight安裝時發生錯誤",
+    "ERRORABOUTPI":"嘗試更新PI的數據時發生錯誤"
+  },
+  "VERTIVPI":{
+    "PLUGIN":" Vertiv Power Insight-vSphere插件"
+  },
+  "VCENTERPLUGIN":{
+    "VCINSTALLATION":" vSphere安裝",
+    "HOSTIP":" vSphere HostName/HostIP",
+    "USERNAME":" vSphere賬號",
+    "PASSWORD":" vSphere密碼",
+    "PLUGINHOSTIP": "Plugin Host Name/IP",
+    "UPDATE":"更新",
+    "INSTALL":"安裝",
+    "UNINSTALL":"卸載",
+    "ERRORVC":"嘗試從vSphere獲取安裝數據時發生錯誤",
+    "UPDATESUCCESS":" vSphere信息已成功更新",
+    "UPDATEERROR":"嘗試更新vSphere的信息時發生錯誤",
+    "INSTALLERROR":"註冊vSphere時出錯。插件註冊失敗,請檢查輸入的IP地址,用戶名和密碼是否正確"
+  },
+  "PIDIVESSETTING":{
+    "TITLE":"電源設備關聯",
+    "UPSDEVICE":"UPS設備列表",
+    "APPLY":"應用",
+    "CHECKED":"已勾選",
+    "DEVICENAME":"設備名稱",
+    "DEVICEIP":"設備IP",
+    "NODATA":"沒有設備",
+    "PDUDEVICE":"PDU設備列表",
+    "NOTGETID":"由於無法從htmlClientSdk加載ESXi ID,導致無法將關聯的PDU設備獲取到ESXi主機",
+    "ERRORABOUTPI":"嘗試獲取關聯的設備數據時發生錯誤",
+    "PDUDEVICEERROR":"嘗試獲取PDU設備數據時發生錯誤",
+    "UPSDEVICEERROR":"嘗試獲取UPS設備數據時發生錯誤",
+    "APPLYSUCCESS":"電源設備和ESXI主機關聯成功",
+    "HOSTERROR":"嘗試將PI設備與ESXI主機關聯時發生錯誤"
+  },
+  "ALARMSETTING":{
+    "TITLE":"告警關聯",
+    "ALARMSCLECTED":"自定義告警列表",
+    "APPLY":"應用",
+    "CHECKED":"已勾選",
+    "NODATA":"無告警",
+    "ALARMNAME":"告警名稱",
+    "DEFAULTACTION":"默認操作",
+    "DELAY":"延遲/秒",
+    "ALARMERROR":"嘗試獲取自定義預設時發生錯誤",
+    "ALARMIDERROR":"由於無法從htmlClientSdk加載ESXi ID,導致無法獲得ESXi主機的自定義定義",
+    "GETALARMERROR":"嘗試獲取esxi主機的自定義預設時發生錯誤",
+    "INSTALLALARMERROR":"由於無法從htmlClientSdk加載ESXi ID,在ESXi主機上安裝發生故障:",
+    "INSTALLALARMSUCCESS": "告警和ESXI主機關聯成功",
+    "UPDATEERROR":"嘗試更新與esxi主機的ups關聯的信息時發生錯誤",
+    "BINDERROR":"嘗試更新與cluster綁定的ups告警信息時發生錯誤"
+  },
+  "STACKBLOCK": {
+    "EQUIPMENTNAME": "設備名稱",
+    "EQUIPMENTMODEL": "設備型號",
+    "IPADDRESS": "IP地址",
+    "BATTERYSTATUS": "電池狀態",
+    "BATTELYLEVEL": "電池電量百分比",
+    "BATTERYTIME": "電池剩餘供電時間",
+    "UPSAIRINLET": "UPS進口空氣溫度",
+    "UPSRATEDVIEWINPOWER": "UPS視在額定功率",
+    "UPSCONFIGURATION": "UPS配置額定功率",
+    "INPUTVOLTAGE": "輸入電壓",
+    "INPUTCURRENT": "輸入電流",
+    "ENTTHENUMBER": "系統輸入停電計數",
+    "ENTERTHENUMBER": "系統輸入欠壓計數",
+    "FIRMWAREVERSION": "固件版本",
+    "PROTOCOL": "協議",
+    "TOTALELECTRIC": "總電能",
+    "TOTALPOWER": "總功率"
+  },
+  "CLUSTERDEVICEBIND": {
+    "NEXTSTEP": "下一步",
+    "PREVIOSSTEP": "上一步",
+    "CONFIRMBIND": "確認綁定",
+    "REBIND": "重新綁定",
+    "MAXSELECTLENGTH": "最多可以選擇倆個UPS",
+    "BINDSUCCESS": "設備綁定成功。請注意，如果未進行告警綁定，告警仍不會被觸發",
+    "CLUSTERERROR": "嘗試將PI設備與集群關聯時出錯",
+    "SINGLEPOWERMODE": "單電源模式",
+    "SINGALMODELINFORMATION": "單個UPS供電，UPS失效後發出告警",
+    "ACTIVEMODE": "主備模式",
+    "ACTIVEMODEINFORMATION": "主UPS失效後將啟用備用UPS，倆個UPS都失效後發出告警",
+    "PARALLELMODE": "併機模式",
+    "PARALLELMODEINFORMATION": "兩個UPS同時工作，其中一個UPS失效後發出告警",
+    "DEVICELIST": "設備列表",
+    "NODEVICEBIND": "暫無設備可綁定",
+    "SELECTEDDEVICE": "已綁定設備"
+  },
+  "CLUSTERALARMBIND": {
+    "BINDALARMSUCCESS": "告警綁定成功。請注意，如果未進行設備綁定，告警仍不會被觸發。一旦綁定成功，UPS設備出現以上告警將關閉整個集群，務必謹慎操作！",
+    "ALLALARMS": "全部告警",
+    "CONFIRMBIND": "確認綁定",
+    "EMERGENCYALARMS": "緊急告警",
+    "IMPORTANTALARMS": "重要告警"
+  },
+  "VXAILGLOBAL": {
+    "CONFIGURATIONTIME": "告警激活時間配置，單位秒",
+    "POLLINGTIMESET": "Power Insight插件的輪詢配置",
+    "POLLINGTIMEDES":"系統將按輪詢時間間隔和次數，重複確認直至全部用戶虛擬機完成關機",
+    "RESET": "重置",
+    "SAVE": "保存",
+    "ERRORABOUTWRITE": "請輸入0至86400的整數",
+    "ERRORABOUTPOLLINGTIME": "請輸入60至600的整數",
+    "ERRORABOUTPOLLINGNUMBER": "請輸入5至20的整數",
+    "EMERGENCYALARMS": "緊急告警",
+    "IMPORTANTALARMS": "重要告警",
+    "POLLINGINTERVAL": "輪詢時間間隔(s)",
+    "POLLINGNUMBER":"輪詢次數"
+  },
+  "DIRECTIONCARDPAGE":{
+    "TITLE":"歡迎來到 Power Insight - vSphere 插件",
+    "TITLEDES":"vSphere插件是一款電源管理應用程序，可以讓您在vSphere中管理Power Insight的UPS、PDU數據和來自Power Insight的警報提醒。我們會指引你如何根據實際場景配置vSphere。",
+    "VCENTERTITLE":"vSphere模式",
+    "VCENTERDES":"傳統vSphere模式，無Vxrail環境，所有主機和虛擬機通過vSphere管理。需要為vSphere插件提供Power Insight、vSphere設備的配置信息。",
+    "SINGLEVXRAILTITLE":"單Vxrail模式",
+    "SINGLEVXRAILDES":"系統管理虛擬機和工作虛擬機需要擁有同一個Vxrail環境。為vSphere插件提供Power Insight、vSphere、Vxrail、Card的配置信息。",
+    "DUALVXRAILTITLE":"雙Vxrail模式",
+    "DUALVXRAILDES":"虛擬機與工作虛擬機位於不同的Vxrail超系統集成集群環境環境。需要為vSphere插件提供VXrail Manager、UPS Card的配置信息。"
+  },
+  "INSTALLPAGE":{
+    "PITITLE":"Power Insight 安裝",
+    "PIDES":"配置Power Insight設置以允許與插件進行通信。",
+    "VCENTERTITLE":"vSphere 安裝",
+    "VCENTERDES":"配置vSphere 設置以允許與插件進行通信。",
+    "VXRAILTITLE":"Vxrail Manager 安裝",
+    "VXRAILDES":"配置Vxrail Manager 設置以允許與插件進行通信。",
+    "CARDTITLE":"UPS Card 安裝",
+    "CARDDES":"配置UPS Card 設置以允許與插件進行通信。",
+    "INSTALLPROCESS":"註冊流程已經完成",
+    "INSTALLCOMPLETE":"所有項目已經成功註冊，現在可以安全關掉這個頁面",
+    "INSTALLNOTCOMPLETE":"所有註冊流程未完成之前，此插件無法正常使用",
+    "CHANGEMODE":"改變模式",
+    "ALERT":"改變模式将会注销取消所有註冊成功的關係",
+    "CARDLINKERROR":"UPS card連接狀態異常請重新連接",
+    "UNINSTALLLOADING":"正在註銷，請稍後",
+    "CARDLINKWITHVXRAIL":"請先完成 VxRail Manager 的配置",
+    "INSTALLERROR":{
+      "VXRAILERROR":"VxRail配置信息註冊失敗",
+      "PIERROR":"PowerInsight配置信息註冊失敗",
+      "CARDERROR":"UPS Card配置信息註冊失敗",
+      "VCENTERERROR":"vSphere配置信息註冊失敗"
+    },
+    "UPDATEERROR":{
+      "VXRAILERROR":"向VxRail更新配置信息失敗",
+      "PIERROR":"向PowerInsight更新配置信息失敗",
+      "CARDERROR":"向UPS Card更新配置信息失敗",
+      "VCENTERERROR":"向vSphere更新配置信息失敗"
+    },
+    "UNINSTALLERROR":{
+      "VXRAILERROR":"解除VxRail綁定信息時發生錯誤",
+      "PIERROR":"解除PowerInsight綁定信息時發生錯誤",
+      "CARDERROR":"解除UPS Card綁定信息時發生錯誤",
+      "VCENTERERROR":"解除vSphere綁定信息時發生錯誤"
+    },
+    "INITERROR":{
+      "VXRAILERROR":"查詢VxRail配置信息失敗",
+      "PIERROR":"查詢PowerInsight配置信息失敗",
+      "CARDERROR":"查詢UPS Card配置信息失敗",
+      "VCENTERERROR":"查詢vSphere配置信息失敗"
+    }
+  }
+}

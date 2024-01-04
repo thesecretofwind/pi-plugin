@@ -1,0 +1,43 @@
+
+<!-- <nz-spin nzTip="Loading..."> -->
+  <div class="wrapper">
+    <div class="form-top">
+      <div class="title">{{ _card.title | translate }}</div>
+      <div class="discription">{{ _card.placeholder | translate }}</div>
+    </div>
+
+    <form nz-form nzLayout="vertical" [formGroup]="cardForm">
+      <div class="form-content">
+        <nz-form-item *ngFor="let item of _card.inputInfo" class="form-item">
+          <nz-form-label [nzSpan]="18" [nzFor]="item.inputTitleId">{{ item.inputTitle | translate}}</nz-form-label>
+          <nz-form-control >
+            <input nz-input [name]="item.name" [type]="item.inputType" [id]="item.inputTitleId" [formControlName]="item.name">
+          </nz-form-control>
+        </nz-form-item >
+        <nz-form-item [ngStyle]="{visibility: 'hidden'}" *ngIf="_card.inputInfo?.length === 3">
+          <nz-form-label [nzSpan]="18">占位符</nz-form-label>
+          <nz-form-control>
+            <input type="text">
+          </nz-form-control>
+        </nz-form-item>
+      </div>
+      <div class="form-footer">
+        <div class="note">
+          <div class="success-msg" *ngIf="status === 'success'">{{successMsg}}</div>
+          <div class="error-msg" *ngIf="status === 'error'">{{ errorMsg }}</div>
+        </div>
+        <div class="success" *ngIf="_card.status === 'registered'">
+          <button nz-button (click)="update()" [nzLoading]="getLoading('update')">
+            {{ 'VCENTERPLUGIN.UPDATE' | translate}}
+          </button>
+          <button nz-button (click)="unregister()" [nzLoading]="getLoading('unregister')">
+            {{ 'VCENTERPLUGIN.UNINSTALL' | translate}}
+          </button>
+        </div>
+        <div class="register" *ngIf="_card.status === 'unregister'">
+          <button nz-button nzType="primary" nzBlock (click)="register()" [nzLoading]="getLoading('register')">{{ 'VCENTERPLUGIN.INSTALL' | translate}}</button>
+        </div>
+      </div>
+    </form>
+  </div>
+<!-- </nz-spin> -->

@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="left">
+    <img src="./assets/images/logo-vertiv.png" alt="vertiv-logo" class="logo">
+    <span class="title">{{ 'VERTIVPI.PLUGIN' | translate }}</span>
+  </div>
+
+  <div class="right">
+    <span class="user" nz-dropdown [nzDropdownMenu]="menu" (nzVisibleChange)="visible = $event">
+      <span class="username">admin</span>
+      <span class="icon" nz-icon nzType="caret-down" nzTheme="outline" [ngStyle]="{transform: visible ? 'rotate(180deg)' : 'rotate(0deg)'}"></span>
+    </span>
+  </div>
+</div>
+
+<nz-dropdown-menu #menu="nzDropdownMenu" >
+  <ul nz-menu nzSelectable class="dropdown">
+    <li nz-menu-item>{{ 'LOGIN.ABOUT' | translate}}</li>
+    <li nz-menu-item>{{ 'LOGIN.CHANGEPASSWORD' | translate}}</li>
+    <li nz-menu-item>{{ 'LOGIN.LOGOUT' | translate}}</li>
+  </ul>
+</nz-dropdown-menu>
+
+

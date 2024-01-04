@@ -1,0 +1,248 @@
+{
+  "GOBAL": {
+    "LOADING" : "Loading...",
+    "SURE": "OK",
+    "CANCEL": "CANCEL",
+    "NEWWORKERROR": "Network error, please try again later",
+    "EXSIHOSTERROR": "Cannot get associated UPS devices to ESXi host due to error: cannot load ESXi ID from htmlClientSdk",
+    "EXSIHOSTPDUERROR": "Cannot get associated PDU devices to ESXi host due to error: cannot load ESXi ID from htmlClientSdk",
+    "UPDATEERROR": "An error occurred while trying to get alarm definitions",
+    "SAVE": "SAVE"
+  },
+  "LOGIN": {
+      "USERNAME": "User Name",
+      "PASSWORD": "Password",
+      "CHANGEPASSWORD": "Change Password",
+      "INITALPASSWORD": "Reset Password",
+      "LOGIN": "Login",
+      "ERRORTIP": "Incorrect account or password, please re-enter",
+      "SUCCESS": "Account and password reset successfully, please login again",
+      "INITTIP": "Do you want to confirm the initialization password?",
+      "TIP": "Warning",
+      "FIRSTLOGIN": "Please change your password when logging in for the first time!"
+  },
+  "CLUSTRMONITORPDU": {
+    "TITLE": "Vertiv Devices",
+    "NOTBOUND": "The current level host is not bound to the device"
+  },
+  "CLUSTRMONITORUPS": {
+    "TITLE": "Vertiv Devices",
+    "NOTBOUND": "The current level host is not bound to the device"
+  },
+  "CHANGEPASSWORD": {
+    "OLDPASSWORD": "Old Password",
+    "NEWPASSWORD": "New Password",
+    "CONFIRMPASSWORD": "Confirm Password",
+    "CHANGE": "Change",
+    "CANCEL": "Cancel",
+    "ERRORMESSAGE": "Confirm password and new password are inconsistent",
+    "ERROROPTIONS": "Password modification failed, please try again"
+  },
+  "CLUSTERPDUSTATUS": {
+    "TOTALENERGY": "Total Energy",
+    "TOTALPOWER": "Total Power"
+  },
+  "CLUSTERUPSSTATUS": {
+    "OUTPUTCURRENT": "Output Current",
+    "OUTPUTVOLTAGE": "Output Voltage"
+  },
+  "GOBALALARM": {
+    "UPDATESUCCESS": "Update Completed!"
+  },
+  "HOSTPDUSTATUS": {
+    "PDUSTATUS": "PDU Status",
+    "UNBOUNDDEVICE": "Unbound Device",
+    "TOTALENERGY": "Total Energy",
+    "TOTALPOWER": "Total Power"
+  },
+  "HOSTUPSSTATUS": {
+    "UPSSTATUS": "UPS Status",
+    "UNBOUNDDEVICE": "Unbound Device",
+    "OUTPUTCURRENT": "Output Current",
+    "OUTPUTVOLTAGE": "Output Voltage"
+  },
+  "GOBALVIEW": {
+    "CONFIGURATIONTIME": "Configuration of Alarm active time in seconds",
+    "GLOBALALARM": "Global Alarm",
+    "CUSTOMALARM": "Custom Alarm",
+    "ERRORABOUTWRITE": "Please enter an integer from 0 to 86400"
+  },
+  "PICONFIGURE": {
+    "PIINSIGHTINSTALLATION": "Power Insight Registration",
+    "PIHOSTIP": "Power Insight Host Name/IP",
+    "PIAPIKEY": "Power Insight Api Key",
+    "PISECRET": "Power Insight Api Secret",
+    "PIUPDATE": "Update",
+    "PIINSTALL": "Register",
+    "PIUNINSTALL": "Uninstall",
+    "ERRORPI": "An error occurred while trying to get the data for the Power Insight",
+    "UPDATESUCCESS": "Power Insight data updated successfuly",
+    "UPDATEERROR": "An error occurred while trying to update the data for the Power Insight",
+    "INSTALLERROR": "An Error Ocurred Trying to Delete The Power Insight Registration",
+    "ERRORABOUTPI": "An error occurred while trying to update the data for the PI"
+  },
+  "VERTIVPI": {
+    "PLUGIN": "Vertiv Power Insight - vSphere Plugin"
+  },
+  "VCENTERPLUGIN": {
+    "VCINSTALLATION": "vSphere Registration",
+    "HOSTIP": "vSphere Host Name/IP",
+    "USERNAME": "vSphere UserName",
+    "PASSWORD": "vSphere Password",
+    "PLUGINHOSTIP": "Plugin Host Name/IP",
+    "UPDATE": "Update",
+    "INSTALL": "Register",
+    "UNINSTALL": "Unregister",
+    "ERRORVC": "An error occurred while trying to get Register data from the vcenter",
+    "UPDATESUCCESS": "vSphere information updated successfuly",
+    "UPDATEERROR": "An error occurred while trying to update the information for the vcenter",
+    "INSTALLERROR": "Error Registering the vSphere. Plug-in registration failed, please check whether the entered IP address, user name and password are correct"
+  },
+  "PIDIVESSETTING": {
+    "TITLE": "Connected Power Devices",
+    "UPSDEVICE": "UPS Equipment List",
+    "APPLY": "APPLY",
+    "CHECKED": "Checked",
+    "DEVICENAME": "Device name",
+    "DEVICEIP": "Device IP",
+    "NODATA": "No Device",
+    "PDUDEVICE": "PDU Equipment List",
+    "NOTGETID": "Cannot get associated UPS devices to ESXi host due to error: cannot load ESXi ID from htmlClientSdk",
+    "ERRORABOUTPI": "An error occurred while trying to get associated devcies data",
+    "PDUDEVICEERROR": "An error occurred while trying to get PDU Devices data",
+    "UPSDEVICEERROR": "An error occurred while trying to get UPS Devices data",
+    "APPLYSUCCESS": "Power Devices connected with ESXI host successfuly",
+    "HOSTERROR": "An error occurred while trying to associate PI Devices with ESXI host",
+    "APPLYALL": "Power Management Rule: Apply All",
+    "APPLYANY": "Power Management Rule: Apply Any",
+    "APPLYALLTIP": "Vxrail Cluster will be shutdown when alarm is received from all the Devices",
+    "APPLYANYTIP": "Vxrail Cluster will be shutdown when alarm is received from any of the selected Devices"
+  },
+  "ALARMSETTING": {
+    "TITLE": "Connected Alarms",
+    "ALARMSCLECTED": "Custom Alarm List",
+    "APPLY": "APPLY",
+    "CHECKED": "Checked",
+    "NODATA": "No Alarm",
+    "ALARMNAME": "Alarm Name",
+    "DEFAULTACTION": "Default Action",
+    "DELAY": "Delay / Second",
+    "ALARMERROR": "An error occurred while trying to get custom alarms",
+    "ALARMIDERROR": "Cannot get custom alarms definition for ESXi host due to error: cannot load ESXi ID from htmlClientSdk",
+    "GETALARMERROR": "An error occurred while trying to get custom alarms for esxi host",
+    "INSTALLALARMERROR": "Register alarms on ESXi host failed due to error: cannot load ESXi ID from htmlClientSdk",
+    "INSTALLALARMSUCCESS": "Alarms connected with ESXI host successfuly",
+    "UPDATEERROR": "An error occurred while trying to update the information for the ups association with esxi host",
+    "BINDERROR":"An error occurred while trying to update the ups alert information bound to the cluster"
+  },
+  "STACKBLOCK": {
+    "EQUIPMENTNAME": "Device Name",
+    "EQUIPMENTMODEL": "Device Model",
+    "IPADDRESS": "IP Address",
+    "BATTERYSTATUS": "Battery Status",
+    "BATTELYLEVEL": "Battery Charge Percentage",
+    "BATTERYTIME": "Remaining battery power time",
+    "UPSAIRINLET": "UPS inlet air temperature",
+    "UPSRATEDVIEWINPOWER": "UPS Apparent Rated Power",
+    "UPSCONFIGURATION": "UPS configuration rated power",
+    "INPUTVOLTAGE": "Input voltage",
+    "INPUTCURRENT": "Input Current",
+    "ENTTHENUMBER": "System input power failure count",
+    "ENTERTHENUMBER": "System input undervoltage count",
+    "FIRMWAREVERSION": "Firmware version",
+    "PROTOCOL": "protocol",
+    "TOTALELECTRIC": "Total Electricity",
+    "TOTALPOWER": "Total Power"
+  },
+  "CLUSTERDEVICEBIND": {
+    "NEXTSTEP": "Next step",
+    "PREVIOSSTEP": "Previous",
+    "CONFIRMBIND": "Confirm Binding",
+    "REBIND": "Rebind",
+    "MAXSELECTLENGTH": "You can choose up to two UPSs",
+    "BINDSUCCESS": "The device is successfully bound. Please note that if the alarm is not bound, the alarm will still not be triggered",
+    "CLUSTERERROR": "An error occurred while trying to associate the PI device with the cluster",
+    "SINGLEPOWERMODE": "Single Power Mode",
+    "SINGALMODELINFORMATION": "A single UPS supplies power, and an alarm is issued after the UPS fails",
+    "ACTIVEMODE": "Main and Standby Mode",
+    "ACTIVEMODEINFORMATION": "The backup UPS will be activated after the main UPS fails, and an alarm will be issued after both UPSs fail",
+    "PARALLELMODE": "Parallel Mode",
+    "PARALLELMODEINFORMATION": "Two UPSs work at the same time, and an alarm will be issued after one of the UPS fails",
+    "DEVICELIST": "Device List",
+    "NODEVICEBIND": "No device can be connected temporarily",
+    "SELECTEDDEVICE": "Device Bound"
+  },
+  "CLUSTERALARMBIND": {
+    "BINDALARMSUCCESS": "Alarm binding is successful. Note that if device binding is not performed, the alarm will still not be triggered. Once the binding is successful, the entire cluster will be shut down when the above alarm occurs on the UPS, so be careful!",
+    "ALLALARMS": "All Alarms",
+    "CONFIRMBIND": "Confirm Binding",
+    "EMERGENCYALARMS": "Critical Warning",
+    "IMPORTANTALARMS": "Important Warning"
+  },
+  "VXAILGLOBAL": {
+    "CONFIGURATIONTIME": "Alarm activation time configuration, in seconds",
+    "POLLINGTIMESET": "Polling Configuration for Power Insight Plugin",
+    "POLLINGTIMEDES":"The system will repeat the confirmation according to the polling interval and number of times until all user virtual machines are shut down.",
+    "RESET": "Reset",
+    "SAVE": "Save",
+    "ERRORABOUTWRITE": "Please enter an integer from 0 to 86400",
+    "ERRORABOUTPOLLINGTIME": "Please enter an integer from 60 to 600",
+    "ERRORABOUTPOLLINGNUMBER":"Please enter an integer from 5 to 20",
+    "EMERGENCYALARMS": "Critical Warning",
+    "IMPORTANTALARMS": "Important Warning",
+    "POLLINGINTERVAL": "Polling Interval(s)",
+    "POLLINGNUMBER":"Number of polls"
+  },
+  "DIRECTIONCARDPAGE":{
+    "TITLE":"Welcome to Power Insight - vSphere Plugin",
+    "TITLEDES":"Power Insight – vSphere Plugin is a power management application plug-in. After successful registration, you can view UPS and PDU device data monitored by Power Insight in vSphere, and display device alarms from Power Insight. We will guide you how to configure the vSphere plugin based on actual scenarios.",
+    "VCENTERTITLE":"vSphere Mode",
+    "VCENTERDES":"Traditional vSphere mode (power devices binding with hosts), no VxRail environment, all hosts and VMs are managed through vSphere. Configuration information for Power Insight, vSphere appliance needs to be provided for vSphere Plugin.",
+    "SINGLEVXRAILTITLE":"VxRail Single-vSphere Mode",
+    "SINGLEVXRAILDES":"Power devices binding with the VxRail cluster. Plugin application services and Power Insight application services are deployed in the VMs of the VxRail cluster. Configuration information for Power Insight, vSphere appliance, VxRail Manager, and UPS Card needs to be provided for the vSphere Plugin.",
+    "DUALVXRAILTITLE":"VxRail Double-vSphere Mode",
+    "DUALVXRAILDES":"Power devices binding with the workload VxRail cluster. Plugin application services and Power Insight application services are not deployed in the VMs of the workload VxRail cluster, but in other separately powered vSphere hyperconverged clusters. Configuration information for Power Insight, workload vSphere appliance and Vxrail Manager needs to be provided for the vSphere plugin."
+  },
+  "INSTALLPAGE":{
+    "PITITLE":"Power Insight Registration",
+    "PIDES":"Configure Power Insight settings to allow communications with the Plugin. ",
+    "VCENTERTITLE":"vSphere Registration",
+    "VCENTERDES":"Configure vSphere settings to allow communications with the Plugin.",
+    "VXRAILTITLE":"VxRail Manager Registration",
+    "VXRAILDES":"Configure VxRail settings to allow communications with the Plugin.",
+    "CARDTITLE":"UPS Card Registration",
+    "CARDDES":"Configure Card settings to allow communications with the Plugin. ",
+    "INSTALLPROCESS":"of the registration process is completed",
+    "INSTALLCOMPLETE":"All registrations have been completed, now you can safely close this page",
+    "INSTALLNOTCOMPLETE":"the software cannotbe used normally if the registration is not completed",
+    "CHANGEMODE":"Change Mode",
+    "ALERT":"Change the mode will uninstall all registered cards",
+    "CARDLINKERROR":"UPS card connection status is abnormal, please reconnect",
+    "UNINSTALLLOADING":"Signing out, please wait",
+    "CARDLINKWITHVXRAIL":"Please complete the configuration of VxRail Manager first",
+    "INSTALLERROR":{
+      "VXRAILERROR":"Failed to register configuration information to VxrRail",
+      "PIERROR":"Failed to register configuration information to PowerInsight",
+      "CARDERROR":"Failed to register configuration information to UPS Card",
+      "VCENTERERROR":"Failed to register configuration information to vSphere"
+    },
+    "UPDATEERROR":{
+      "VXRAILERROR":"Failed to update configuration information to VxRail",
+      "PIERROR":"Failed to update configuration information to PowerInsight",
+      "CARDERROR":"Failed to update configuration information to UPS Card",
+      "VCENTERERROR":"Failed to update configuration information to vSphere"
+    },
+    "UNINSTALLERROR":{
+      "VXRAILERROR":"An error occurred while uninstall information from VxRail",
+      "PIERROR":"An error occurred while uninstall information from PowerInsight",
+      "CARDERROR":"An error occurred while uninstall information from UPS Card",
+      "VCENTERERROR":"An error occurred while uninstall information from vSphere"
+    },
+    "INITERROR":{
+      "VXRAILERROR":"Failed to query VxRail configuration information",
+      "PIERROR":"Failed to query PowerInsight configuration information",
+      "CARDERROR":"Failed to query UPS Card configuration information",
+      "VCENTERERROR":"Failed to query vSphere configuration information"
+    }
+  }
+}

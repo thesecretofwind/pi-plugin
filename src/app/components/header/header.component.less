@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00364d;
+
+  .left {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1.2rem;
+
+    .logo {
+      width: 30px;
+      height: 15px;
+    }
+
+    .title {
+      color: #fafafa;
+      font-size: .8rem;
+      letter-spacing: .01em;
+      line-height: 3rem;
+    }
+  }
+
+  .right {
+    padding-right: 2rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+    }
+
+    .icon {
+      font-size: 0.7rem;
+      transition: transform .3s;
+    }
+
+  }
+}
+
+.dropdown {
+  padding: 10px;
+}
