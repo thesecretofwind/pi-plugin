@@ -1,27 +1,6 @@
 # PiPlugin
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+1. 本项目使用的angular-cli版本号为14.1.0，使用的node版本号为16.10.0，
+2. 本项目使用了面向对象的写法，通过继承模拟模式选择，然后通过工厂模式实现分发
+3. 本项目使用了jasmine的单元测试进行测试，涉及服务的http请求模拟、表单控件分发验证、路由跳转、路由请求参数模拟
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
